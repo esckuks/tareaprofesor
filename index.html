@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Chaos Senpai</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#hero" class="logo">CHAOS SENPAI</a>
+
+      <nav class="nav-links">
+        <a href="#gallery">ROCK</a>
+        <a href="#gallery">ANIME</a>
+        <a href="#about">SOBRE NOSOTROS</a>
+      </nav>
+
+      <button class="cart-btn">
+        🛒 <span class="cart-count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-topline">CHAOS SENPAI · COLECCIÓN 2026</p>
+      <h1>TU ESTILO,<br>TUS REGLAS</h1>
+      <p class="hero-text">
+        Explora nuestras colecciones exclusivas o crea tu estilo.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#gallery" class="btn btn-primary">Ver Catálogo</a>
+        <a href="#custom" class="btn btn-secondary">Personalizar</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <p class="section-kicker">COLECCIONES EXCLUSIVAS</p>
+      <h2 class="section-title">GALERÍA DE ESTILOS</h2>
+
+      <div class="filters" id="filters"></div>
+      <div class="product-grid" id="products"></div>
+    </div>
+  </section>
+
+<section class="custom-section" id="custom">
+  <div class="custom-overlay"></div>
+
+  <div class="container custom-content">
+    <p class="section-kicker light">EL DIFERENCIAL</p>
+
+    <h2 class="custom-title">
+      SI PUEDES IMAGINARLO,<br>
+      PUEDES VESTIRLO
+    </h2>
+
+    <p class="custom-text">
+      Crea camisetas únicas con nuestro personalizador en línea. Sin límites.
+    </p>
+
+    <!-- 🔥 AQUÍ LOS CUADROS -->
+    <div class="custom-steps">
+
+      <div class="step-card">
+        <div class="step-icon">👕</div>
+        <span class="step-number">01</span>
+        <h3>Elige tu base</h3>
+        <p>Selecciona el corte, color y talla perfecta para ti.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-icon">⬆️</div>
+        <span class="step-number">02</span>
+        <h3>Sube o crea</h3>
+        <p>Carga tu logo o foto, o usa nuestros elementos gráficos.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-icon">🚚</div>
+        <span class="step-number">03</span>
+        <h3>Recibe en casa</h3>
+        <p>Nos encargamos de la impresión de alta calidad y envíos.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <section class="benefits section">
+    <div class="container benefits-grid" id="benefits"></div>
+  </section>
+
+  <section class="testimonials section" id="about">
+    <div class="container">
+      <p class="section-kicker">LO QUE DICEN NUESTROS CLIENTES</p>
+      <h2 class="section-title">PRUEBA SOCIAL</h2>
+
+      <div class="testimonial-grid" id="testimonials"></div>
+    </div>
+  </section>
+
+
+  <section class="newsletter section">
+    <div class="container newsletter-box">
+      <section class="newsletter section">
+  <div class="container newsletter-box">
+    
+    <div class="newsletter-icon">🎁</div>
+    <h2 class="section-title small">ÚNETE AL CLUB</h2>
+
+    <form class="newsletter-form" id="customForm">
+  <input type="email" id="emailInput" placeholder="tu@email.com" required>
+  <button type="submit" class="btn btn-dark">Suscribir</button>
+</form>
+
+    <!-- 🔥 FORMULARIO HUBSPOT -->
+    <div id="hubspotForm"></div>
+
+  </div>
+</section>
+
+<!-- SCRIPT DE HUBSPOT -->
+<script src="https://js.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "TU_REGION",
+    portalId: "TU_PORTAL_ID",
+    formId: "TU_FORM_ID",
+    target: "#hubspotForm"
+  });
+</script>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-logo">CHAOS SENPAI</h3>
+        <p>Streetwear con actitud desde 2026.</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 Chaos Senpai
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
