@@ -709,14 +709,14 @@ input {
 
 /* Caja central (más ancha 🔥) */
 .newsletter-box {
-  max-width: 900px; /* antes 600 */
+  max-width: 900px;
   width: 100%;
   text-align: center;
-  background: #141414;
-  padding: 60px 50px; /* más aire */
-  border-radius: 18px;
-  border: 1px solid #2a2a2a;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  padding: 60px 50px;
+
+  background: transparent; /* 🔥 clave */
+  border: none;            /* 🔥 fuera borde */
+  box-shadow: none;        /* 🔥 fuera sombra */
 }
 
 /* Icono */
